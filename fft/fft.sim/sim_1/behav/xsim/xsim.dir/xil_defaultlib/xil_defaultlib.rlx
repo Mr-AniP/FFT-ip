@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/animesh21131/fft/fft.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/animesh21131/fft/fft.srcs/sim_1/new/fft_tb.v,1667278175,verilog,,,,fft_tb,,,,,,,,
+C:/Users/animesh21131/fft/fft.srcs/sources_1/ip/xfft_0/sim/xfft_0.vhd,1667276099,vhdl,,,,xfft_0,,,,,,,,
+C:/Users/animesh21131/fft/fft.srcs/sources_1/new/fft_top.v,1667276134,verilog,,C:/Users/animesh21131/fft/fft.srcs/sim_1/new/fft_tb.v,,fft_top,,,,,,,,
