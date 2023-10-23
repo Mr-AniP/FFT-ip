@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Dec 25 12:16:42 2022
+# Process ID: 17040
+# Current directory: C:/Users/animesh21131/fftipeldbonus/solution1/.autopilot/db/ip_tmp
+# Command line: vivado.exe  -notrace -mode batch -source run_vivado_gen_ip.tcl
+# Log file: C:/Users/animesh21131/fftipeldbonus/solution1/.autopilot/db/ip_tmp/vivado.log
+# Journal file: C:/Users/animesh21131/fftipeldbonus/solution1/.autopilot/db/ip_tmp\vivado.jou
+#-----------------------------------------------------------
+source run_vivado_gen_ip.tcl -notrace

@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1671950741473">
+  <ports id="1" name="FFTIN_V_data" type="PortType" originalName="FFTIN.V.data" bitwidth="64">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="FFTIN_V_last_V" type="PortType" originalName="FFTIN.V.last.V" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="3" name="FFTIN_V_keep_V" type="PortType" originalName="FFTIN.V.keep.V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="FFTOUT_V_data" type="PortType" originalName="FFTOUT.V.data" bitwidth="64" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="5" name="FFTOUT_V_last_V" type="PortType" originalName="FFTOUT.V.last.V" bitwidth="1" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="6" name="FFTOUT_V_keep_V" type="PortType" originalName="FFTOUT.V.keep.V" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="176" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="179" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="180" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="181" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="182" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="185" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="188" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="189" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="190" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="191" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="194" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="195" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="196" source_obj="//@ports.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="220" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="221" source_obj="//@regions.1/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="222" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="224" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.0"/>
+  <edges id="225" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.1"/>
+  <edges id="227" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.2"/>
+  <edges id="229" source_obj="//@regions.1/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.3"/>
+  <edges id="230" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.3"/>
+  <edges id="231" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@regions.1/@basic_blocks.0/@node_objs.3"/>
+  <edges id="232" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="249" source_obj="//@regions.1/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="258" source_obj="//@regions.1/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.3"/>
+  <edges id="260" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.4"/>
+  <edges id="261" source_obj="//@blocks.10/@node_objs.0" sink_obj="//@blocks.3/@node_objs.0" is_back_edge="1"/>
+  <edges id="262" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.3/@node_objs.0" is_back_edge="1"/>
+  <edges id="265" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.3/@node_objs.0"/>
+  <edges id="267" source_obj="//@blocks.3/@node_objs.0" sink_obj="//@blocks.3/@node_objs.1"/>
+  <edges id="270" source_obj="//@blocks.3/@node_objs.1" sink_obj="//@blocks.3/@node_objs.2"/>
+  <edges id="271" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.3/@node_objs.2"/>
+  <edges id="272" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@blocks.3/@node_objs.2"/>
+  <edges id="273" edge_type="CtrlEdge" source_obj="//@regions.2/@basic_blocks.0" sink_obj="//@blocks.11/@node_objs.0"/>
+  <edges id="287" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.4/@node_objs.2"/>
+  <edges id="288" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="291" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.5/@node_objs.0"/>
+  <edges id="292" source_obj="//@blocks.5/@node_objs.2" sink_obj="//@blocks.5/@node_objs.0" is_back_edge="1"/>
+  <edges id="293" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.5/@node_objs.0" is_back_edge="1"/>
+  <edges id="296" source_obj="//@blocks.5/@node_objs.0" sink_obj="//@blocks.5/@node_objs.1"/>
+  <edges id="298" source_obj="//@blocks.5/@node_objs.0" sink_obj="//@blocks.5/@node_objs.2"/>
+  <edges id="301" source_obj="//@blocks.5/@node_objs.1" sink_obj="//@blocks.5/@node_objs.3"/>
+  <edges id="302" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.5/@node_objs.3"/>
+  <edges id="303" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.5/@node_objs.3"/>
+  <edges id="315" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.6/@node_objs.3"/>
+  <edges id="317" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.7/@node_objs.0"/>
+  <edges id="318" source_obj="//@blocks.8/@node_objs.21" sink_obj="//@blocks.7/@node_objs.0" is_back_edge="1"/>
+  <edges id="319" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.7/@node_objs.0" is_back_edge="1"/>
+  <edges id="329" source_obj="//@blocks.7/@node_objs.1" sink_obj="//@blocks.7/@node_objs.2"/>
+  <edges id="330" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.7/@node_objs.2"/>
+  <edges id="331" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.7/@node_objs.2"/>
+  <edges id="332" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="339" source_obj="//@blocks.8/@node_objs.1" sink_obj="//@blocks.8/@node_objs.2"/>
+  <edges id="340" source_obj="//@blocks.6/@node_objs.1" sink_obj="//@blocks.8/@node_objs.2"/>
+  <edges id="345" source_obj="//@blocks.8/@node_objs.3" sink_obj="//@blocks.8/@node_objs.4"/>
+  <edges id="346" source_obj="//@blocks.6/@node_objs.2" sink_obj="//@blocks.8/@node_objs.4"/>
+  <edges id="347" source_obj="//@blocks.8/@node_objs.2" sink_obj="//@blocks.8/@node_objs.5"/>
+  <edges id="348" source_obj="//@blocks.8/@node_objs.4" sink_obj="//@blocks.8/@node_objs.5"/>
+  <edges id="349" source_obj="//@blocks.8/@node_objs.3" sink_obj="//@blocks.8/@node_objs.6"/>
+  <edges id="350" source_obj="//@blocks.6/@node_objs.1" sink_obj="//@blocks.8/@node_objs.6"/>
+  <edges id="351" source_obj="//@blocks.8/@node_objs.1" sink_obj="//@blocks.8/@node_objs.7"/>
+  <edges id="352" source_obj="//@blocks.6/@node_objs.2" sink_obj="//@blocks.8/@node_objs.7"/>
+  <edges id="353" source_obj="//@blocks.8/@node_objs.6" sink_obj="//@blocks.8/@node_objs.8"/>
+  <edges id="354" source_obj="//@blocks.8/@node_objs.7" sink_obj="//@blocks.8/@node_objs.8"/>
+  <edges id="360" source_obj="//@blocks.8/@node_objs.9" sink_obj="//@blocks.8/@node_objs.10"/>
+  <edges id="361" source_obj="//@blocks.8/@node_objs.5" sink_obj="//@blocks.8/@node_objs.10"/>
+  <edges id="362" source_obj="//@blocks.8/@node_objs.10" sink_obj="//@blocks.8/@node_objs.11"/>
+  <edges id="368" source_obj="//@blocks.8/@node_objs.12" sink_obj="//@blocks.8/@node_objs.13"/>
+  <edges id="369" source_obj="//@blocks.8/@node_objs.8" sink_obj="//@blocks.8/@node_objs.13"/>
+  <edges id="370" source_obj="//@blocks.8/@node_objs.13" sink_obj="//@blocks.8/@node_objs.14"/>
+  <edges id="373" source_obj="//@blocks.8/@node_objs.15" sink_obj="//@blocks.8/@node_objs.16"/>
+  <edges id="374" source_obj="//@blocks.8/@node_objs.5" sink_obj="//@blocks.8/@node_objs.16"/>
+  <edges id="375" source_obj="//@blocks.8/@node_objs.16" sink_obj="//@blocks.8/@node_objs.17"/>
+  <edges id="378" source_obj="//@blocks.8/@node_objs.18" sink_obj="//@blocks.8/@node_objs.19"/>
+  <edges id="379" source_obj="//@blocks.8/@node_objs.8" sink_obj="//@blocks.8/@node_objs.19"/>
+  <edges id="380" source_obj="//@blocks.8/@node_objs.19" sink_obj="//@blocks.8/@node_objs.20"/>
+  <edges id="383" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.21"/>
+  <edges id="384" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.8/@node_objs.22"/>
+  <edges id="385" source_obj="//@blocks.3/@node_objs.0" sink_obj="//@blocks.10/@node_objs.0"/>
+  <edges id="387" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.10/@node_objs.1"/>
+  <edges id="388" source_obj="//@regions.2/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="389" edge_type="CtrlEdge" source_obj="//@regions.2/@basic_blocks.1" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="391" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.0"/>
+  <edges id="392" source_obj="//@regions.2/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.1"/>
+  <edges id="394" source_obj="//@regions.2/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.2"/>
+  <edges id="396" source_obj="//@regions.2/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.3"/>
+  <edges id="397" edge_type="CtrlEdge" source_obj="//@regions.2/@basic_blocks.1" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.3"/>
+  <edges id="398" edge_type="CtrlEdge" source_obj="//@blocks.12" sink_obj="//@regions.2/@basic_blocks.0/@node_objs.3"/>
+  <edges id="408" source_obj="//@regions.2/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.2"/>
+  <edges id="419" source_obj="//@regions.2/@basic_blocks.1/@node_objs.3" sink_obj="//@ports.3"/>
+  <edges id="420" source_obj="//@regions.2/@basic_blocks.1/@node_objs.3" sink_obj="//@ports.4"/>
+  <edges id="421" source_obj="//@regions.2/@basic_blocks.1/@node_objs.3" sink_obj="//@ports.5"/>
+  <edges id="423" source_obj="//@regions.2/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.3"/>
+  <edges id="426" edge_type="CtrlEdge" source_obj="//@regions.2/@basic_blocks.0" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.4"/>
+  <edges id="575" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="576" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="577" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="578" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="579" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.1/@basic_blocks.0"/>
+  <edges id="580" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@blocks.2"/>
+  <edges id="581" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.0" sink_obj="//@regions.1/@basic_blocks.1"/>
+  <edges id="582" edge_type="CtrlEdge" source_obj="//@regions.1/@basic_blocks.1" sink_obj="//@regions.1/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="583" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.3"/>
+  <edges id="584" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.11"/>
+  <edges id="585" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.4"/>
+  <edges id="586" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.5"/>
+  <edges id="587" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.10"/>
+  <edges id="588" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.6"/>
+  <edges id="589" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.7"/>
+  <edges id="590" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.8"/>
+  <edges id="591" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.9"/>
+  <edges id="592" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.7" is_back_edge="1"/>
+  <edges id="593" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.5" is_back_edge="1"/>
+  <edges id="594" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.3" is_back_edge="1"/>
+  <edges id="595" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@regions.2/@basic_blocks.0"/>
+  <edges id="596" edge_type="CtrlEdge" source_obj="//@regions.2/@basic_blocks.0" sink_obj="//@blocks.12"/>
+  <edges id="597" edge_type="CtrlEdge" source_obj="//@regions.2/@basic_blocks.0" sink_obj="//@regions.2/@basic_blocks.1"/>
+  <edges id="598" edge_type="CtrlEdge" source_obj="//@regions.2/@basic_blocks.1" sink_obj="//@regions.2/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="-1" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="-1" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="-1" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="-1" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="-1" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.0"/>
+  <edges id="-1" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.0"/>
+  <edges id="-1" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="-1" source_obj="//@regions.1/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.1/@basic_blocks.1/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.3/@node_objs.0" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.3/@node_objs.0" sink_obj="//@blocks.4/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.4/@node_objs.0" sink_obj="//@blocks.8/@node_objs.21"/>
+  <edges id="-1" source_obj="//@blocks.4/@node_objs.0" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.4/@node_objs.0" sink_obj="//@blocks.5/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.4/@node_objs.1" sink_obj="//@blocks.6/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.5/@node_objs.0" sink_obj="//@blocks.7/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.5/@node_objs.0" sink_obj="//@blocks.6/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.6/@node_objs.0" sink_obj="//@blocks.6/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.6/@node_objs.0" sink_obj="//@blocks.6/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.7/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.8/@node_objs.0" sink_obj="//@blocks.8/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.8/@node_objs.0" sink_obj="//@blocks.8/@node_objs.11"/>
+  <edges id="-1" source_obj="//@blocks.8/@node_objs.0" sink_obj="//@blocks.8/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.8/@node_objs.0" sink_obj="//@blocks.8/@node_objs.14"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.8/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.8/@node_objs.11"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.8/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.8/@node_objs.14"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.9"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.17"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.12"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.18"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.8/@node_objs.20"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.8/@node_objs.9"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.8/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.8/@node_objs.17"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.8/@node_objs.12"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.8/@node_objs.18"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.8/@node_objs.20"/>
+  <edges id="-1" source_obj="//@regions.2/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.0"/>
+  <edges id="-1" source_obj="//@regions.2/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.1"/>
+  <edges id="-1" source_obj="//@regions.2/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.3"/>
+  <edges id="-1" source_obj="//@regions.2/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.2/@basic_blocks.1/@node_objs.3"/>
+  <blocks id="24" name="block_24" type="BlockType">
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>block_30</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="tempout_R" lineNumber="8" originalName="tempout_R" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="tempout_R_U" coreName="RAM" contextFuncName="FFTipfn" bitwidth="32" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="8" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="tempout_I" lineNumber="8" originalName="tempout_I" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="tempout_I_U" coreName="RAM" contextFuncName="FFTipfn" bitwidth="32" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="8" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="FFTIn_R" lineNumber="17" originalName="FFTIn_R" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTIn_R_U" coreName="RAM" contextFuncName="FFTipfn" bitwidth="32" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="17" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="FFTIn_I" lineNumber="17" originalName="FFTIn_I" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTIn_I_U" coreName="RAM" contextFuncName="FFTipfn" bitwidth="32" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="17" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="_ln20" lineNumber="20" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" m_display="0" m_delay="1.76" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="20" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>block_30</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>8</validLinenumbers>
+      <validLinenumbers>17</validLinenumbers>
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="49" name=".preheader23.preheader" type="BlockType">
+    <controlInputObjs>block_30</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.preheader23</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="_ln29" lineNumber="29" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="2.0" m_display="0" m_delay="1.76" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="29" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>.preheader23</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>29</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="74" name=".preheader22.preheader" type="BlockType">
+    <controlInputObjs>.preheader23</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.preheader22</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="73" name="_ln38" lineNumber="38" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="5.0" m_display="0" m_delay="1.76" m_topoIndex="39" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="38" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>.preheader22</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>38</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="80" name=".preheader22" type="BlockType">
+    <controlInputObjs>.preheader22.preheader</controlInputObjs>
+    <controlInputObjs>block_144</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>.preheader.preheader</controlOutputObjs>
+    <controlOutputObjs>block_88</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="75" name="stage_0" originalName="stage" bitwidth="4" opcode="phi" nodeLabel="6.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+      <dataInputObjs>add</dataInputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>add</dataOutputObjs>
+      <dataOutputObjs>shl</dataOutputObjs>
+      <dataOutputObjs>lshr</dataOutputObjs>
+      <controlInputObjs>block_144</controlInputObjs>
+      <controlInputObjs>.preheader22.preheader</controlInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="77" name="icmp_ln38" lineNumber="38" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="icmp_ln38_fu_474_p2" contextFuncName="FFTipfn" bitwidth="1" opcode="icmp" nodeLabel="6.0" m_display="0" m_delay="1.3" m_topoIndex="42" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="38" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="79" name="_ln38" lineNumber="38" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="6.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="38" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <controlInputObjs>block_88</controlInputObjs>
+      <controlInputObjs>.preheader.preheader</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>38</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="88" name="block_88" type="BlockType">
+    <controlInputObjs>.preheader22</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="81" name="subDFTSize" lineNumber="40" originalName="subDFTSize" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="subDFTSize_fu_480_p2" contextFuncName="FFTipfn" bitwidth="11" opcode="shl" nodeLabel="6.0" m_display="0" m_delay="2.39" m_topoIndex="44" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="40" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>add</dataOutputObjs>
+      <dataOutputObjs>add</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="85" name="lshr_ln43" lineNumber="43" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="lshr_ln43_fu_504_p2" contextFuncName="FFTipfn" bitwidth="11" opcode="lshr" nodeLabel="6.0" m_display="0" m_delay="3.46" m_topoIndex="48" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="43" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>mul</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="_ln42" lineNumber="42" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="6.0" m_display="0" m_delay="1.76" m_topoIndex="50" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="42" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>40</validLinenumbers>
+      <validLinenumbers>43</validLinenumbers>
+      <validLinenumbers>42</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="96" name=".loopexit" type="BlockType">
+    <controlInputObjs>block_88</controlInputObjs>
+    <controlInputObjs>.loopexit.loopexit</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>block_144</controlOutputObjs>
+    <controlOutputObjs>block_104</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="i_6" originalName="j" bitwidth="10" opcode="phi" nodeLabel="7.0" m_display="0" m_topoIndex="52" m_clusterGroupNumber="-1">
+      <dataInputObjs>add</dataInputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>add</dataOutputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <dataOutputObjs>mul</dataOutputObjs>
+      <controlInputObjs>block_88</controlInputObjs>
+      <controlInputObjs>.loopexit.loopexit</controlInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="93" name="icmp_ln42" lineNumber="42" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="icmp_ln42_fu_522_p2" contextFuncName="FFTipfn" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="1.77" m_topoIndex="55" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="42" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>shl</dataInputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="94" name="j" lineNumber="55" originalName="j" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="j_fu_527_p2" contextFuncName="FFTipfn" bitwidth="10" opcode="add" nodeLabel="7.0" m_display="0" m_delay="1.73" m_topoIndex="56" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="55" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="95" name="_ln42" lineNumber="42" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="7.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="42" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <controlInputObjs>block_104</controlInputObjs>
+      <controlInputObjs>block_144</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>42</validLinenumbers>
+      <validLinenumbers>55</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="104" name="block_104" type="BlockType">
+    <controlInputObjs>.loopexit</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>block_109</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="97" name="mul_ln43" lineNumber="43" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_mul_mul_1dEe_U7" contextFuncName="FFTipfn" bitwidth="21" opcode="mul" nodeLabel="7.0" m_display="0" m_delay="6.38" m_topoIndex="58" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="43" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>lshr</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="100" name="BFWeight_cos" lineNumber="43" originalName="BFWeight_cos" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="63" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="43" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>mul</dataInputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="102" name="BFWeight_sin" lineNumber="44" originalName="BFWeight_sin" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="65" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="44" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>mul</dataInputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="103" name="_ln45" lineNumber="45" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="9.0" m_display="0" m_delay="1.76" m_topoIndex="66" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="45" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>block_109</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>43</validLinenumbers>
+      <validLinenumbers>44</validLinenumbers>
+      <validLinenumbers>45</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="109" name="block_109" type="BlockType">
+    <controlInputObjs>block_104</controlInputObjs>
+    <controlInputObjs>block_139</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>block_139</controlOutputObjs>
+    <controlOutputObjs>.loopexit.loopexit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="105" name="i_2" originalName="i" bitwidth="32" opcode="phi" nodeLabel="10.0" m_display="0" m_topoIndex="67" m_clusterGroupNumber="-1">
+      <dataInputObjs>add</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>add</dataOutputObjs>
+      <dataOutputObjs>add</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <controlInputObjs>block_104</controlInputObjs>
+      <controlInputObjs>block_139</controlInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="107" name="icmp_ln45" lineNumber="45" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="icmp_ln45_fu_554_p2" contextFuncName="FFTipfn" bitwidth="1" opcode="icmp" nodeLabel="10.0" m_display="0" m_delay="2.44" m_topoIndex="69" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="45" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="108" name="_ln45" lineNumber="45" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="10.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="45" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <controlInputObjs>.loopexit.loopexit</controlInputObjs>
+      <controlInputObjs>block_139</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>45</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="139" name="block_139" type="BlockType">
+    <controlInputObjs>block_109</controlInputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>block_109</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="110" name="i_lower" lineNumber="46" originalName="i_lower" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="i_lower_fu_560_p2" contextFuncName="FFTipfn" bitwidth="32" opcode="add" nodeLabel="10.0" m_display="0" m_delay="2.55" m_topoIndex="71" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="46" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>shl</dataInputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="113" name="tempout_R_load" lineNumber="47" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="10.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="74" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="47" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>add</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="114" name="tmp_1" lineNumber="47" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_fmul_32nscud_U3" contextFuncName="FFTipfn" bitwidth="32" opcode="fmul" nodeLabel="12.0" nodeLatency="3" m_display="0" m_delay="5.7" m_topoIndex="82" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="47" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="116" name="tempout_I_load" lineNumber="47" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="10.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="76" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="47" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>add</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="117" name="tmp_2" lineNumber="47" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_fmul_32nscud_U4" contextFuncName="FFTipfn" bitwidth="32" opcode="fmul" nodeLabel="12.0" nodeLatency="3" m_display="0" m_delay="5.7" m_topoIndex="83" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="47" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="118" name="temp_R" lineNumber="47" originalName="temp_R" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_faddfsub_bkb_U1" contextFuncName="FFTipfn" bitwidth="32" opcode="fsub" nodeLabel="16.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="86" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="47" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>fmul</dataInputObjs>
+      <dataInputObjs>fmul</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+      <dataOutputObjs>fadd</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="119" name="tmp_3" lineNumber="48" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_fmul_32nscud_U5" contextFuncName="FFTipfn" bitwidth="32" opcode="fmul" nodeLabel="12.0" nodeLatency="3" m_display="0" m_delay="5.7" m_topoIndex="84" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="48" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>fadd</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="120" name="tmp_4" lineNumber="48" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_fmul_32nscud_U6" contextFuncName="FFTipfn" bitwidth="32" opcode="fmul" nodeLabel="12.0" nodeLatency="3" m_display="0" m_delay="5.7" m_topoIndex="85" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="48" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>fadd</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="121" name="temp_I" lineNumber="48" originalName="temp_I" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_faddfsub_bkb_U2" contextFuncName="FFTipfn" bitwidth="32" opcode="fadd" nodeLabel="16.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="87" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="48" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>fmul</dataInputObjs>
+      <dataInputObjs>fmul</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+      <dataOutputObjs>fadd</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="124" name="tempout_R_load_1" lineNumber="50" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="19.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="88" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="50" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="125" name="tmp_5" lineNumber="50" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_faddfsub_bkb_U1" contextFuncName="FFTipfn" bitwidth="32" opcode="fsub" nodeLabel="21.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="90" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="50" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>fsub</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="126" name="tempout_R_addr_2_write_ln50" lineNumber="50" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="26.0" m_display="0" m_delay="3.25" m_topoIndex="92" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="50" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>fsub</dataInputObjs>
+      <dataInputObjs>add</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="128" name="tempout_I_load_1" lineNumber="51" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="19.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="89" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="51" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="129" name="tmp_6" lineNumber="51" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_faddfsub_bkb_U2" contextFuncName="FFTipfn" bitwidth="32" opcode="fsub" nodeLabel="21.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="91" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="51" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>fadd</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="130" name="tempout_I_addr_2_write_ln51" lineNumber="51" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="26.0" m_display="0" m_delay="3.25" m_topoIndex="93" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="51" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>fsub</dataInputObjs>
+      <dataInputObjs>add</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="131" name="tempout_R_load_2" lineNumber="52" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="27.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="94" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="52" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>fadd</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="132" name="tmp_7" lineNumber="52" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_faddfsub_bkb_U1" contextFuncName="FFTipfn" bitwidth="32" opcode="fadd" nodeLabel="29.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="96" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="52" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>fsub</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="133" name="tempout_R_addr_3_write_ln52" lineNumber="52" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="34.0" m_display="0" m_delay="3.25" m_topoIndex="98" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="52" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>fadd</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="134" name="tempout_I_load_2" lineNumber="53" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="27.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="95" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="53" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>fadd</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="135" name="tmp_8" lineNumber="53" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="FFTipfn_faddfsub_bkb_U2" contextFuncName="FFTipfn" bitwidth="32" opcode="fadd" nodeLabel="29.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="97" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="53" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>fadd</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="136" name="tempout_I_addr_3_write_ln53" lineNumber="53" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="34.0" m_display="0" m_delay="3.25" m_topoIndex="99" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="53" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>fadd</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="137" name="i_7" lineNumber="45" originalName="i" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="i_7_fu_577_p2" contextFuncName="FFTipfn" bitwidth="32" opcode="add" nodeLabel="10.0" m_display="0" m_delay="2.55" m_topoIndex="80" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="45" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>shl</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="138" name="_ln45" lineNumber="45" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="34.0" m_display="0" m_topoIndex="100" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="45" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>block_109</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>46</validLinenumbers>
+      <validLinenumbers>47</validLinenumbers>
+      <validLinenumbers>48</validLinenumbers>
+      <validLinenumbers>50</validLinenumbers>
+      <validLinenumbers>51</validLinenumbers>
+      <validLinenumbers>52</validLinenumbers>
+      <validLinenumbers>53</validLinenumbers>
+      <validLinenumbers>45</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="141" name=".loopexit.loopexit" type="BlockType">
+    <controlInputObjs>block_109</controlInputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="140" name="_ln0" opcode="br" nodeLabel="10.0" m_display="0" m_topoIndex="81" m_clusterGroupNumber="-1">
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="144" name="block_144" type="BlockType">
+    <controlInputObjs>.loopexit</controlInputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>.preheader22</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="142" name="stage" lineNumber="38" originalName="stage" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="stage_fu_533_p2" contextFuncName="FFTipfn" bitwidth="4" opcode="add" nodeLabel="7.0" m_display="0" m_delay="1.73" m_topoIndex="59" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="38" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="143" name="_ln38" lineNumber="38" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="7.0" m_display="0" m_topoIndex="60" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="38" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>.preheader22</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>38</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="146" name=".preheader.preheader" type="BlockType">
+    <controlInputObjs>.preheader22</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.preheader</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="145" name="_ln58" lineNumber="58" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="6.0" m_display="0" m_delay="1.76" m_topoIndex="51" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="58" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+      <controlInputObjs>.preheader</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>58</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="170" name="block_170" type="BlockType">
+    <controlInputObjs>.preheader</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="169" name="_ln68" lineNumber="68" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="ret" nodeLabel="38.0" m_display="0" m_topoIndex="116" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="68" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+      <validLinenumbers>68</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" id="710" pipe_depth="1" RegionName="generateinput">
+    <basic_blocks id="30" name="block_30" type="BlockType">
+      <controlInputObjs>block_24</controlInputObjs>
+      <controlInputObjs>generateinput</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>.preheader23.preheader</controlOutputObjs>
+      <controlOutputObjs>generateinput</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="i_0" originalName="i" bitwidth="11" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <controlInputObjs>block_24</controlInputObjs>
+        <controlInputObjs>generateinput</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln20" lineNumber="20" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="icmp_ln20_fu_391_p2" contextFuncName="FFTipfn" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="1.88" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="20" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="i" lineNumber="20" originalName="i" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="i_fu_397_p2" contextFuncName="FFTipfn" bitwidth="11" opcode="add" nodeLabel="1.0" m_display="0" m_delay="1.63" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="20" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="_ln20" lineNumber="20" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="20" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>generateinput</controlInputObjs>
+        <controlInputObjs>.preheader23.preheader</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+        <validLinenumbers>20</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="47" name="generateinput" type="BlockType">
+      <controlInputObjs>block_30</controlInputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_30</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="empty_17" lineNumber="22" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="73" opcode="read" nodeLabel="1.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="22" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>FFTIN_V_data</dataInputObjs>
+        <dataInputObjs>FFTIN_V_last_V</dataInputObjs>
+        <dataInputObjs>FFTIN_V_keep_V</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="FFTIn_R_addr_write_ln24" lineNumber="24" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="1.0" m_display="0" m_delay="3.25" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="24" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="FFTIn_I_addr_write_ln25" lineNumber="25" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="1.0" m_display="0" m_delay="3.25" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="25" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="_ln20" lineNumber="20" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="20" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <controlInputObjs>block_30</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+        <validLinenumbers>22</validLinenumbers>
+        <validLinenumbers>24</validLinenumbers>
+        <validLinenumbers>25</validLinenumbers>
+        <validLinenumbers>20</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" id="711" pipe_depth="2" RegionName="bitreversal">
+    <basic_blocks id="55" name=".preheader23" type="BlockType">
+      <controlInputObjs>.preheader23.preheader</controlInputObjs>
+      <controlInputObjs>bitreversal</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>.preheader22.preheader</controlOutputObjs>
+      <controlOutputObjs>bitreversal</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="i_1" originalName="i" bitwidth="11" opcode="phi" nodeLabel="3.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <controlInputObjs>bitreversal</controlInputObjs>
+        <controlInputObjs>.preheader23.preheader</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="icmp_ln29" lineNumber="29" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="icmp_ln29_fu_437_p2" contextFuncName="FFTipfn" bitwidth="1" opcode="icmp" nodeLabel="3.0" m_display="0" m_delay="1.88" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="29" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="i_4" lineNumber="29" originalName="i" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="i_4_fu_443_p2" contextFuncName="FFTipfn" bitwidth="11" opcode="add" nodeLabel="3.0" m_display="0" m_delay="1.63" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="29" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="_ln29" lineNumber="29" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="29" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>bitreversal</controlInputObjs>
+        <controlInputObjs>.preheader22.preheader</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+        <validLinenumbers>29</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="72" name="bitreversal" type="BlockType">
+      <controlInputObjs>.preheader23</controlInputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>.preheader23</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="FFTIn_R_load" lineNumber="31" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="31" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="65" name="tempout_R_addr_write_ln31" lineNumber="31" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="4.0" m_display="0" m_delay="3.25" m_topoIndex="35" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="31" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="FFTIn_I_load" lineNumber="32" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="32" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="32" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="tempout_I_addr_write_ln32" lineNumber="32" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="store" nodeLabel="4.0" m_display="0" m_delay="3.25" m_topoIndex="37" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="32" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="_ln29" lineNumber="29" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="4.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="29" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <controlInputObjs>.preheader23</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+        <validLinenumbers>31</validLinenumbers>
+        <validLinenumbers>32</validLinenumbers>
+        <validLinenumbers>29</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" id="712" pipe_depth="3" RegionName="generateoutput">
+    <basic_blocks id="152" name=".preheader" type="BlockType">
+      <controlInputObjs>.preheader.preheader</controlInputObjs>
+      <controlInputObjs>generateoutput</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_170</controlOutputObjs>
+      <controlOutputObjs>generateoutput</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="147" name="i_3" originalName="i" bitwidth="11" opcode="phi" nodeLabel="35.0" m_display="0" m_topoIndex="101" m_clusterGroupNumber="-1">
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <controlInputObjs>generateoutput</controlInputObjs>
+        <controlInputObjs>.preheader.preheader</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="148" name="icmp_ln58" lineNumber="58" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="icmp_ln58_fu_582_p2" contextFuncName="FFTipfn" bitwidth="1" opcode="icmp" nodeLabel="35.0" m_display="0" m_delay="1.88" m_topoIndex="102" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="58" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="150" name="i_5" lineNumber="58" originalName="i" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="i_5_fu_588_p2" contextFuncName="FFTipfn" bitwidth="11" opcode="add" nodeLabel="35.0" m_display="0" m_delay="1.63" m_topoIndex="103" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="58" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="151" name="_ln58" lineNumber="58" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="35.0" m_display="0" m_topoIndex="104" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="58" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>generateoutput</controlInputObjs>
+        <controlInputObjs>block_170</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+        <validLinenumbers>58</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="168" name="generateoutput" type="BlockType">
+      <controlInputObjs>.preheader</controlInputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>.preheader</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="158" name="tmp_data_M_real" lineNumber="60" originalName="__val" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="35.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="107" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="60" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="160" name="tmp_data_M_imag" lineNumber="61" originalName="__val" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" bitwidth="32" opcode="load" nodeLabel="35.0" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="109" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="61" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="161" name="tmp_last_V" lineNumber="64" originalName="tmp.last.V" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." rtlName="tmp_last_V_fu_600_p2" contextFuncName="FFTipfn" bitwidth="1" opcode="icmp" nodeLabel="35.0" m_display="0" m_delay="1.88" m_topoIndex="110" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="64" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="165" name="FFTOUT_V_data_write_ln65" lineNumber="65" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="write" nodeLabel="36.0" nodeLatency="1" m_display="0" m_topoIndex="114" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="65" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>FFTOUT_V_data</dataOutputObjs>
+        <dataOutputObjs>FFTOUT_V_last_V</dataOutputObjs>
+        <dataOutputObjs>FFTOUT_V_keep_V</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="167" name="_ln58" lineNumber="58" fileName="fftipeldbonus/fft.cpp" fileDirectory=".." contextFuncName="FFTipfn" opcode="br" nodeLabel="37.0" m_display="0" m_topoIndex="115" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fftipeldbonus/fft.cpp" linenumber="58" fileDirectory="C:\Users\animesh21131" functionName="FFTipfn"/>
+        <controlInputObjs>.preheader</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fftipeldbonus/fft.cpp">
+        <validLinenumbers>60</validLinenumbers>
+        <validLinenumbers>61</validLinenumbers>
+        <validLinenumbers>64</validLinenumbers>
+        <validLinenumbers>65</validLinenumbers>
+        <validLinenumbers>58</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <ScheduleInfo time="5"/>
+  <ScheduleInfo time="6"/>
+  <ScheduleInfo time="7"/>
+  <ScheduleInfo time="8"/>
+  <ScheduleInfo time="9"/>
+  <ScheduleInfo time="10"/>
+  <ScheduleInfo time="11"/>
+  <ScheduleInfo time="12"/>
+  <ScheduleInfo time="13"/>
+  <ScheduleInfo time="14"/>
+  <ScheduleInfo time="15"/>
+  <ScheduleInfo time="16"/>
+  <ScheduleInfo time="17"/>
+  <ScheduleInfo time="18"/>
+  <ScheduleInfo time="19"/>
+  <ScheduleInfo time="20"/>
+  <ScheduleInfo time="21"/>
+  <ScheduleInfo time="22"/>
+  <ScheduleInfo time="23"/>
+  <ScheduleInfo time="24"/>
+  <ScheduleInfo time="25"/>
+  <ScheduleInfo time="26"/>
+  <ScheduleInfo time="27"/>
+  <ScheduleInfo time="28"/>
+  <ScheduleInfo time="29"/>
+  <ScheduleInfo time="30"/>
+  <ScheduleInfo time="31"/>
+  <ScheduleInfo time="32"/>
+  <ScheduleInfo time="33"/>
+  <ScheduleInfo time="34"/>
+  <ScheduleInfo time="35"/>
+  <ScheduleInfo time="36"/>
+  <ScheduleInfo time="37"/>
+  <ScheduleInfo time="38"/>
+  <regnodes realName="BFWidth_reg_674">
+    <nodeIds>84</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln29_reg_636">
+    <nodeIds>51</nodeIds>
+  </regnodes>
+  <regnodes realName="i_7_reg_752">
+    <nodeIds>137</nodeIds>
+  </regnodes>
+  <regnodes realName="i_5_reg_791">
+    <nodeIds>150</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_1_reg_757">
+    <nodeIds>114</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_data_1_reg_811">
+    <nodeIds>164</nodeIds>
+  </regnodes>
+  <regnodes realName="i_reg_631">
+    <nodeIds>28</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_4_reg_772">
+    <nodeIds>120</nodeIds>
+  </regnodes>
+  <regnodes realName="i_1_reg_287">
+    <nodeIds>50</nodeIds>
+  </regnodes>
+  <regnodes realName="i_6_reg_310">
+    <nodeIds>89</nodeIds>
+  </regnodes>
+  <regnodes realName="or_ln31_8_reg_650">
+    <nodeIds>62</nodeIds>
+  </regnodes>
+  <regnodes realName="FFTIn_I_addr_1_reg_655">
+    <nodeIds>66</nodeIds>
+  </regnodes>
+  <regnodes realName="tempout_R_addr_2_reg_732">
+    <nodeIds>112</nodeIds>
+  </regnodes>
+  <regnodes realName="stage_0_reg_298">
+    <nodeIds>75</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_6_reg_782">
+    <nodeIds>129</nodeIds>
+  </regnodes>
+  <regnodes realName="j_reg_692">
+    <nodeIds>94</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_372">
+    <nodeIds>116</nodeIds>
+    <nodeIds>128</nodeIds>
+    <nodeIds>134</nodeIds>
+  </regnodes>
+  <regnodes realName="i_2_reg_321">
+    <nodeIds>105</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln40_reg_664">
+    <nodeIds>82</nodeIds>
+  </regnodes>
+  <regnodes realName="mul_ln43_reg_697">
+    <nodeIds>97</nodeIds>
+  </regnodes>
+  <regnodes realName="stage_reg_702">
+    <nodeIds>142</nodeIds>
+  </regnodes>
+  <regnodes realName="i_4_reg_640">
+    <nodeIds>53</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_379">
+    <nodeIds>118</nodeIds>
+    <nodeIds>132</nodeIds>
+  </regnodes>
+  <regnodes realName="tempout_I_addr_2_reg_737">
+    <nodeIds>115</nodeIds>
+  </regnodes>
+  <regnodes realName="BFWeight_cos_reg_717">
+    <nodeIds>100</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln58_reg_787">
+    <nodeIds>148</nodeIds>
+  </regnodes>
+  <regnodes realName="tempout_I_addr_3_reg_747">
+    <nodeIds>127</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_3_reg_767">
+    <nodeIds>119</nodeIds>
+  </regnodes>
+  <regnodes realName="FFTIn_R_addr_1_reg_645">
+    <nodeIds>60</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_2_reg_762">
+    <nodeIds>117</nodeIds>
+  </regnodes>
+  <regnodes realName="tempout_I_addr_1_reg_801">
+    <nodeIds>159</nodeIds>
+  </regnodes>
+  <regnodes realName="W_imag_addr_reg_712">
+    <nodeIds>101</nodeIds>
+  </regnodes>
+  <regnodes realName="i_0_reg_276">
+    <nodeIds>25</nodeIds>
+  </regnodes>
+  <regnodes realName="lshr_ln_reg_669">
+    <nodeIds>83</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln38_reg_660">
+    <nodeIds>77</nodeIds>
+  </regnodes>
+  <regnodes realName="BFWeight_sin_reg_723">
+    <nodeIds>102</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_365">
+    <nodeIds>113</nodeIds>
+    <nodeIds>124</nodeIds>
+    <nodeIds>131</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_385">
+    <nodeIds>121</nodeIds>
+    <nodeIds>135</nodeIds>
+  </regnodes>
+  <regnodes realName="i_3_reg_330">
+    <nodeIds>147</nodeIds>
+  </regnodes>
+  <regnodes realName="tempout_R_addr_1_reg_796">
+    <nodeIds>157</nodeIds>
+  </regnodes>
+  <regnodes realName="tempout_R_addr_3_reg_742">
+    <nodeIds>123</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln42_1_reg_684">
+    <nodeIds>90</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_5_reg_777">
+    <nodeIds>125</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln42_reg_679">
+    <nodeIds>86</nodeIds>
+  </regnodes>
+  <regnodes realName="W_real_addr_reg_707">
+    <nodeIds>99</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_last_V_reg_806">
+    <nodeIds>161</nodeIds>
+  </regnodes>
+  <expressionNodes realName="icmp_ln42_fu_522">
+    <nodeIds>93</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln31_1_fu_465">
+    <nodeIds>63</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_7_fu_577">
+    <nodeIds>137</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_I_addr_3_gep_fu_256">
+    <nodeIds>127</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln31_fu_449">
+    <nodeIds>59</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln47_fu_565">
+    <nodeIds>111</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln60_fu_594">
+    <nodeIds>156</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="siu_M_imag_fu_426">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="FFTIN_V_data_val_fu_403">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln38_fu_474">
+    <nodeIds>77</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_data_M_imag_loa_fu_416">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_R_addr_1_gep_fu_262">
+    <nodeIds>157</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln162_1_fu_610">
+    <nodeIds>163</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_1_phi_fu_291">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="FFTIn_I_addr_gep_fu_158">
+    <nodeIds>43</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_4_fu_443">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_2_phi_fu_324">
+    <nodeIds>105</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_6_phi_fu_314">
+    <nodeIds>89</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln7_fu_407">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="lshr_ln_fu_490">
+    <nodeIds>83</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_3_phi_fu_334">
+    <nodeIds>147</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_last_V_fu_600">
+    <nodeIds>161</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln43_fu_539">
+    <nodeIds>98</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln50_fu_571">
+    <nodeIds>122</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="FFTIn_R_addr_1_gep_fu_170">
+    <nodeIds>60</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln24_fu_431">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="siu_M_real_fu_411">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln42_fu_510">
+    <nodeIds>86</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln58_fu_582">
+    <nodeIds>148</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="FFTIn_R_addr_gep_fu_146">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_fu_397">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_R_addr_gep_fu_184">
+    <nodeIds>64</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln38_fu_470">
+    <nodeIds>76</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_10_fu_544">
+    <nodeIds>106</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_I_alloca_fu_110">
+    <nodeIds>17</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln31_8_fu_455">
+    <nodeIds>62</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln40_fu_486">
+    <nodeIds>82</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln162_fu_606">
+    <nodeIds>162</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_I_addr_gep_fu_197">
+    <nodeIds>68</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_I_addr_2_gep_fu_243">
+    <nodeIds>115</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_5_fu_588">
+    <nodeIds>150</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln45_fu_554">
+    <nodeIds>107</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_R_addr_3_gep_fu_250">
+    <nodeIds>123</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_I_addr_1_gep_fu_269">
+    <nodeIds>159</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="subDFTSize_fu_480">
+    <nodeIds>81</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln42_1_fu_514">
+    <nodeIds>90</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln29_fu_437">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_R_alloca_fu_106">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="stage_0_phi_fu_302">
+    <nodeIds>75</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tempout_R_addr_2_gep_fu_236">
+    <nodeIds>112</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_0_phi_fu_280">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_lower_fu_560">
+    <nodeIds>110</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln42_2_fu_518">
+    <nodeIds>91</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="j_fu_527">
+    <nodeIds>94</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="W_real_addr_gep_fu_210">
+    <nodeIds>99</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_data_1_fu_614">
+    <nodeIds>164</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="W_imag_addr_gep_fu_223">
+    <nodeIds>101</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="FFTIn_I_addr_1_gep_fu_177">
+    <nodeIds>66</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mul_ln43_fu_623">
+    <nodeIds>97</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln20_fu_391">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="BFWidth_fu_500">
+    <nodeIds>84</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="lshr_ln43_fu_504">
+    <nodeIds>85</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="stage_fu_533">
+    <nodeIds>142</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="FFTIn_R_alloca_fu_114">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="FFTIn_I_alloca_fu_118">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <moduleNodes realName="grp_fu_349">
+    <nodeIds>114</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_345">
+    <nodeIds>121</nodeIds>
+    <nodeIds>129</nodeIds>
+    <nodeIds>135</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_357">
+    <nodeIds>119</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_361">
+    <nodeIds>120</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_341">
+    <nodeIds>118</nodeIds>
+    <nodeIds>125</nodeIds>
+    <nodeIds>132</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_353">
+    <nodeIds>117</nodeIds>
+  </moduleNodes>
+  <ioNodes realName="empty_17_read_fu_122">
+    <nodeIds>34</nodeIds>
+  </ioNodes>
+  <ioNodes realName="grp_write_fu_132">
+    <nodeIds>165</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="FFTIn_I">
+    <nodeIds>44</nodeIds>
+    <nodeIds>67</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="FFTIn_R">
+    <nodeIds>42</nodeIds>
+    <nodeIds>61</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="W_imag">
+    <nodeIds>102</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="W_real">
+    <nodeIds>100</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="tempout_I">
+    <nodeIds>69</nodeIds>
+    <nodeIds>116</nodeIds>
+    <nodeIds>128</nodeIds>
+    <nodeIds>130</nodeIds>
+    <nodeIds>134</nodeIds>
+    <nodeIds>136</nodeIds>
+    <nodeIds>160</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="tempout_R">
+    <nodeIds>65</nodeIds>
+    <nodeIds>113</nodeIds>
+    <nodeIds>124</nodeIds>
+    <nodeIds>126</nodeIds>
+    <nodeIds>131</nodeIds>
+    <nodeIds>133</nodeIds>
+    <nodeIds>158</nodeIds>
+  </memoryPorts>
+  <ioPorts name="FFTIN_V_data">
+    <contents name="read">
+      <nodeIds>34</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="FFTIN_V_keep_V">
+    <contents name="read">
+      <nodeIds>34</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="FFTIN_V_last_V">
+    <contents name="read">
+      <nodeIds>34</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="FFTOUT_V_data">
+    <contents name="write">
+      <nodeIds>165</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="FFTOUT_V_keep_V">
+    <contents name="write">
+      <nodeIds>165</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="FFTOUT_V_last_V">
+    <contents name="write">
+      <nodeIds>165</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="48" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="59" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="61" stage="2" latency="2"/>
+      <operations id="62" stage="1" latency="1"/>
+      <operations id="66" stage="1" latency="1"/>
+      <operations id="67" stage="2" latency="2"/>
+    </states>
+    <states id="5">
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="61" stage="1" latency="2"/>
+      <operations id="63" stage="1" latency="1"/>
+      <operations id="64" stage="1" latency="1"/>
+      <operations id="65" stage="1" latency="1"/>
+      <operations id="67" stage="1" latency="2"/>
+      <operations id="68" stage="1" latency="1"/>
+      <operations id="69" stage="1" latency="1"/>
+      <operations id="70" stage="1" latency="1"/>
+      <operations id="71" stage="1" latency="1"/>
+    </states>
+    <states id="6">
+      <operations id="73" stage="1" latency="1"/>
+    </states>
+    <states id="7">
+      <operations id="75" stage="1" latency="1"/>
+      <operations id="76" stage="1" latency="1"/>
+      <operations id="77" stage="1" latency="1"/>
+      <operations id="78" stage="1" latency="1"/>
+      <operations id="79" stage="1" latency="1"/>
+      <operations id="81" stage="1" latency="1"/>
+      <operations id="82" stage="1" latency="1"/>
+      <operations id="83" stage="1" latency="1"/>
+      <operations id="84" stage="1" latency="1"/>
+      <operations id="85" stage="1" latency="1"/>
+      <operations id="86" stage="1" latency="1"/>
+      <operations id="87" stage="1" latency="1"/>
+      <operations id="145" stage="1" latency="1"/>
+    </states>
+    <states id="8">
+      <operations id="89" stage="1" latency="1"/>
+      <operations id="90" stage="1" latency="1"/>
+      <operations id="91" stage="1" latency="1"/>
+      <operations id="92" stage="1" latency="1"/>
+      <operations id="93" stage="1" latency="1"/>
+      <operations id="94" stage="1" latency="1"/>
+      <operations id="95" stage="1" latency="1"/>
+      <operations id="97" stage="1" latency="1"/>
+      <operations id="142" stage="1" latency="1"/>
+      <operations id="143" stage="1" latency="1"/>
+    </states>
+    <states id="9">
+      <operations id="98" stage="1" latency="1"/>
+      <operations id="99" stage="1" latency="1"/>
+      <operations id="100" stage="2" latency="2"/>
+      <operations id="101" stage="1" latency="1"/>
+      <operations id="102" stage="2" latency="2"/>
+    </states>
+    <states id="10">
+      <operations id="100" stage="1" latency="2"/>
+      <operations id="102" stage="1" latency="2"/>
+      <operations id="103" stage="1" latency="1"/>
+    </states>
+    <states id="11">
+      <operations id="105" stage="1" latency="1"/>
+      <operations id="106" stage="1" latency="1"/>
+      <operations id="107" stage="1" latency="1"/>
+      <operations id="108" stage="1" latency="1"/>
+      <operations id="110" stage="1" latency="1"/>
+      <operations id="111" stage="1" latency="1"/>
+      <operations id="112" stage="1" latency="1"/>
+      <operations id="113" stage="2" latency="2"/>
+      <operations id="115" stage="1" latency="1"/>
+      <operations id="116" stage="2" latency="2"/>
+      <operations id="122" stage="1" latency="1"/>
+      <operations id="123" stage="1" latency="1"/>
+      <operations id="127" stage="1" latency="1"/>
+      <operations id="137" stage="1" latency="1"/>
+      <operations id="140" stage="1" latency="1"/>
+    </states>
+    <states id="12">
+      <operations id="113" stage="1" latency="2"/>
+      <operations id="116" stage="1" latency="2"/>
+    </states>
+    <states id="13">
+      <operations id="114" stage="4" latency="4"/>
+      <operations id="117" stage="4" latency="4"/>
+      <operations id="119" stage="4" latency="4"/>
+      <operations id="120" stage="4" latency="4"/>
+    </states>
+    <states id="14">
+      <operations id="114" stage="3" latency="4"/>
+      <operations id="117" stage="3" latency="4"/>
+      <operations id="119" stage="3" latency="4"/>
+      <operations id="120" stage="3" latency="4"/>
+    </states>
+    <states id="15">
+      <operations id="114" stage="2" latency="4"/>
+      <operations id="117" stage="2" latency="4"/>
+      <operations id="119" stage="2" latency="4"/>
+      <operations id="120" stage="2" latency="4"/>
+    </states>
+    <states id="16">
+      <operations id="114" stage="1" latency="4"/>
+      <operations id="117" stage="1" latency="4"/>
+      <operations id="119" stage="1" latency="4"/>
+      <operations id="120" stage="1" latency="4"/>
+    </states>
+    <states id="17">
+      <operations id="118" stage="5" latency="5"/>
+      <operations id="121" stage="5" latency="5"/>
+    </states>
+    <states id="18">
+      <operations id="118" stage="4" latency="5"/>
+      <operations id="121" stage="4" latency="5"/>
+    </states>
+    <states id="19">
+      <operations id="118" stage="3" latency="5"/>
+      <operations id="121" stage="3" latency="5"/>
+    </states>
+    <states id="20">
+      <operations id="118" stage="2" latency="5"/>
+      <operations id="121" stage="2" latency="5"/>
+      <operations id="124" stage="2" latency="2"/>
+      <operations id="128" stage="2" latency="2"/>
+    </states>
+    <states id="21">
+      <operations id="118" stage="1" latency="5"/>
+      <operations id="121" stage="1" latency="5"/>
+      <operations id="124" stage="1" latency="2"/>
+      <operations id="128" stage="1" latency="2"/>
+    </states>
+    <states id="22">
+      <operations id="125" stage="5" latency="5"/>
+      <operations id="129" stage="5" latency="5"/>
+    </states>
+    <states id="23">
+      <operations id="125" stage="4" latency="5"/>
+      <operations id="129" stage="4" latency="5"/>
+    </states>
+    <states id="24">
+      <operations id="125" stage="3" latency="5"/>
+      <operations id="129" stage="3" latency="5"/>
+    </states>
+    <states id="25">
+      <operations id="125" stage="2" latency="5"/>
+      <operations id="129" stage="2" latency="5"/>
+    </states>
+    <states id="26">
+      <operations id="125" stage="1" latency="5"/>
+      <operations id="129" stage="1" latency="5"/>
+    </states>
+    <states id="27">
+      <operations id="126" stage="1" latency="1"/>
+      <operations id="130" stage="1" latency="1"/>
+    </states>
+    <states id="28">
+      <operations id="131" stage="2" latency="2"/>
+      <operations id="134" stage="2" latency="2"/>
+    </states>
+    <states id="29">
+      <operations id="131" stage="1" latency="2"/>
+      <operations id="134" stage="1" latency="2"/>
+    </states>
+    <states id="30">
+      <operations id="132" stage="5" latency="5"/>
+      <operations id="135" stage="5" latency="5"/>
+    </states>
+    <states id="31">
+      <operations id="132" stage="4" latency="5"/>
+      <operations id="135" stage="4" latency="5"/>
+    </states>
+    <states id="32">
+      <operations id="132" stage="3" latency="5"/>
+      <operations id="135" stage="3" latency="5"/>
+    </states>
+    <states id="33">
+      <operations id="132" stage="2" latency="5"/>
+      <operations id="135" stage="2" latency="5"/>
+    </states>
+    <states id="34">
+      <operations id="132" stage="1" latency="5"/>
+      <operations id="135" stage="1" latency="5"/>
+    </states>
+    <states id="35">
+      <operations id="133" stage="1" latency="1"/>
+      <operations id="136" stage="1" latency="1"/>
+      <operations id="138" stage="1" latency="1"/>
+    </states>
+    <states id="36">
+      <operations id="147" stage="1" latency="1"/>
+      <operations id="148" stage="1" latency="1"/>
+      <operations id="149" stage="1" latency="1"/>
+      <operations id="150" stage="1" latency="1"/>
+      <operations id="151" stage="1" latency="1"/>
+      <operations id="156" stage="1" latency="1"/>
+      <operations id="157" stage="1" latency="1"/>
+      <operations id="158" stage="2" latency="2"/>
+      <operations id="159" stage="1" latency="1"/>
+      <operations id="160" stage="2" latency="2"/>
+      <operations id="161" stage="1" latency="1"/>
+    </states>
+    <states id="37">
+      <operations id="158" stage="1" latency="2"/>
+      <operations id="160" stage="1" latency="2"/>
+      <operations id="162" stage="1" latency="1"/>
+      <operations id="163" stage="1" latency="1"/>
+      <operations id="164" stage="1" latency="1"/>
+      <operations id="165" stage="2" latency="2"/>
+    </states>
+    <states id="38">
+      <operations id="153" stage="1" latency="1"/>
+      <operations id="154" stage="1" latency="1"/>
+      <operations id="155" stage="1" latency="1"/>
+      <operations id="165" stage="1" latency="2"/>
+      <operations id="166" stage="1" latency="1"/>
+      <operations id="167" stage="1" latency="1"/>
+    </states>
+    <states id="39">
+      <operations id="169" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="6" outState="7">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="7" outState="8">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="8" outState="9">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="9" outState="10">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="10" outState="11">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="11" outState="12">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="12" outState="13">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="13" outState="14">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="14" outState="15">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="15" outState="16">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="16" outState="17">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="17" outState="18">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="18" outState="19">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="19" outState="20">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="20" outState="21">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="21" outState="22">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="22" outState="23">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="23" outState="24">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="24" outState="25">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="25" outState="26">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="26" outState="27">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="27" outState="28">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="28" outState="29">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="29" outState="30">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="30" outState="31">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="31" outState="32">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="32" outState="33">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="33" outState="34">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="34" outState="35">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="35" outState="11">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="11" outState="8">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="8" outState="7">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="7" outState="36">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="5" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="6">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="37" outState="38">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="38" outState="36">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="36" outState="39">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="36" outState="37">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="FFTipfn" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="-1" mMaxLatency="-1">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <subRegions>5</subRegions>
+      <subRegions>6</subRegions>
+      <subRegions>7</subRegions>
+      <subRegions>14</subRegions>
+      <subRegions>15</subRegions>
+      <subRegions>16</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>24</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="generateinput" mII="1" mDepth="1" mMinTripCount="1024" mMaxTripCount="1024" mMinLatency="1024" mMaxLatency="1024" mType="1">
+      <basicBlocks>30</basicBlocks>
+      <basicBlocks>47</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Region 1" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>49</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="5" mTag="bitreversal" mII="1" mDepth="2" mMinTripCount="1024" mMaxTripCount="1024" mMinLatency="1024" mMaxLatency="1024" mType="1">
+      <basicBlocks>55</basicBlocks>
+      <basicBlocks>72</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="6" mTag="Region 2" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>74</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="7" mTag="Loop 3" mII="-1" mDepth="-1" mMinTripCount="10" mMaxTripCount="10" mMinLatency="-1" mMaxLatency="-1" mType="1">
+      <subRegions>8</subRegions>
+      <subRegions>9</subRegions>
+      <subRegions>13</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="8" mTag="Region 3" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>80</basicBlocks>
+      <basicBlocks>88</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="9" mTag="Loop 3.1" mII="-1" mDepth="-1" mMinTripCount="1" mMaxTripCount="512" mMinLatency="-1" mMaxLatency="-1" mType="1">
+      <subRegions>10</subRegions>
+      <subRegions>11</subRegions>
+      <subRegions>12</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="10" mTag="Region 4" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMaxLatency="2">
+      <basicBlocks>96</basicBlocks>
+      <basicBlocks>104</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="11" mTag="Loop 3.1.1" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="-1" mMaxLatency="-1" mType="1">
+      <basicBlocks>109</basicBlocks>
+      <basicBlocks>139</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="12" mTag="Region 5" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>141</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="13" mTag="Region 6" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>144</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="14" mTag="Region 7" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>146</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="15" mTag="generateoutput" mII="1" mDepth="3" mMinTripCount="1024" mMaxTripCount="1024" mMinLatency="1025" mMaxLatency="1025" mType="1">
+      <basicBlocks>152</basicBlocks>
+      <basicBlocks>168</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="16" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>170</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

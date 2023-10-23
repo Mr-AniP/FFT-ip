@@ -1,0 +1,286 @@
+
+
+================================================================
+== Vivado HLS Report for 'FFTipfn'
+================================================================
+* Date:           Sun Dec 25 12:15:41 2022
+
+* Version:        2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)
+* Project:        fftipeldbonus
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     7.256|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +------------------+------+------+----------+-----------+-----------+---------+----------+
+        |                  |   Latency   | Iteration|  Initiation Interval  |   Trip  |          |
+        |     Loop Name    |  min |  max |  Latency |  achieved |   target  |  Count  | Pipelined|
+        +------------------+------+------+----------+-----------+-----------+---------+----------+
+        |- generateinput   |  1024|  1024|         1|          1|          1|     1024|    yes   |
+        |- bitreversal     |  1024|  1024|         2|          1|          1|     1024|    yes   |
+        |- Loop 3          |     ?|     ?|         ?|          -|          -|       10|    no    |
+        | + Loop 3.1       |     ?|     ?|         ?|          -|          -| 1 ~ 512 |    no    |
+        |  ++ Loop 3.1.1   |     ?|     ?|        25|          -|          -|        ?|    no    |
+        |- generateoutput  |  1025|  1025|         3|          1|          1|     1024|    yes   |
+        +------------------+------+------+----------+-----------+-----------+---------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      1|       -|      -|    -|
+|Expression       |        -|      -|       0|    342|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|     16|     982|   2064|    -|
+|Memory           |       10|      -|       0|      0|    0|
+|Multiplexer      |        -|      -|       -|    600|    -|
+|Register         |        -|      -|     948|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |       10|     17|    1930|   3006|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      280|    220|  106400|  53200|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        3|      7|       1|      5|    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+-------+-----+-----+-----+
+    |         Instance        |        Module        | BRAM_18K| DSP48E|  FF | LUT | URAM|
+    +-------------------------+----------------------+---------+-------+-----+-----+-----+
+    |FFTipfn_faddfsub_bkb_U1  |FFTipfn_faddfsub_bkb  |        0|      2|  205|  390|    0|
+    |FFTipfn_faddfsub_bkb_U2  |FFTipfn_faddfsub_bkb  |        0|      2|  205|  390|    0|
+    |FFTipfn_fmul_32nscud_U3  |FFTipfn_fmul_32nscud  |        0|      3|  143|  321|    0|
+    |FFTipfn_fmul_32nscud_U4  |FFTipfn_fmul_32nscud  |        0|      3|  143|  321|    0|
+    |FFTipfn_fmul_32nscud_U5  |FFTipfn_fmul_32nscud  |        0|      3|  143|  321|    0|
+    |FFTipfn_fmul_32nscud_U6  |FFTipfn_fmul_32nscud  |        0|      3|  143|  321|    0|
+    +-------------------------+----------------------+---------+-------+-----+-----+-----+
+    |Total                    |                      |        0|     16|  982| 2064|    0|
+    +-------------------------+----------------------+---------+-------+-----+-----+-----+
+
+    * DSP48E: 
+    +-------------------------+----------------------+-----------+
+    |         Instance        |        Module        | Expression|
+    +-------------------------+----------------------+-----------+
+    |FFTipfn_mul_mul_1dEe_U7  |FFTipfn_mul_mul_1dEe  |  i0 * i1  |
+    +-------------------------+----------------------+-----------+
+
+    * Memory: 
+    +-------------+-------------------+---------+---+----+-----+------+-----+------+-------------+
+    |    Memory   |       Module      | BRAM_18K| FF| LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +-------------+-------------------+---------+---+----+-----+------+-----+------+-------------+
+    |W_imag_U     |FFTipfn_W_imag     |        1|  0|   0|    0|   512|   32|     1|        16384|
+    |W_real_U     |FFTipfn_W_real     |        1|  0|   0|    0|   512|   32|     1|        16384|
+    |tempout_R_U  |FFTipfn_tempout_R  |        2|  0|   0|    0|  1024|   32|     1|        32768|
+    |tempout_I_U  |FFTipfn_tempout_R  |        2|  0|   0|    0|  1024|   32|     1|        32768|
+    |FFTIn_R_U    |FFTipfn_tempout_R  |        2|  0|   0|    0|  1024|   32|     1|        32768|
+    |FFTIn_I_U    |FFTipfn_tempout_R  |        2|  0|   0|    0|  1024|   32|     1|        32768|
+    +-------------+-------------------+---------+---+----+-----+------+-----+------+-------------+
+    |Total        |                   |       10|  0|   0|    0|  5120|  192|     6|       163840|
+    +-------------+-------------------+---------+---+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+-------+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+-------+---+----+------------+------------+
+    |i_4_fu_443_p2                     |     +    |      0|  0|  13|          11|           1|
+    |i_5_fu_588_p2                     |     +    |      0|  0|  13|          11|           1|
+    |i_7_fu_577_p2                     |     +    |      0|  0|  39|          32|          32|
+    |i_fu_397_p2                       |     +    |      0|  0|  13|          11|           1|
+    |i_lower_fu_560_p2                 |     +    |      0|  0|  39|          32|          32|
+    |j_fu_527_p2                       |     +    |      0|  0|  14|          10|           1|
+    |stage_fu_533_p2                   |     +    |      0|  0|  13|           4|           1|
+    |FFTIN_V_data_0_load_A             |    and   |      0|  0|   2|           1|           1|
+    |FFTIN_V_data_0_load_B             |    and   |      0|  0|   2|           1|           1|
+    |FFTOUT_V_data_1_load_A            |    and   |      0|  0|   2|           1|           1|
+    |FFTOUT_V_data_1_load_B            |    and   |      0|  0|   2|           1|           1|
+    |FFTOUT_V_last_V_1_load_A          |    and   |      0|  0|   2|           1|           1|
+    |FFTOUT_V_last_V_1_load_B          |    and   |      0|  0|   2|           1|           1|
+    |ap_block_state2                   |    and   |      0|  0|   2|           1|           1|
+    |ap_block_state37_io               |    and   |      0|  0|   2|           1|           1|
+    |ap_block_state38_io               |    and   |      0|  0|   2|           1|           1|
+    |FFTIN_V_data_0_state_cmp_full     |   icmp   |      0|  0|   8|           2|           1|
+    |FFTOUT_V_data_1_state_cmp_full    |   icmp   |      0|  0|   8|           2|           1|
+    |FFTOUT_V_last_V_1_state_cmp_full  |   icmp   |      0|  0|   8|           2|           1|
+    |icmp_ln20_fu_391_p2               |   icmp   |      0|  0|  13|          11|          12|
+    |icmp_ln29_fu_437_p2               |   icmp   |      0|  0|  13|          11|          12|
+    |icmp_ln38_fu_474_p2               |   icmp   |      0|  0|   9|           4|           4|
+    |icmp_ln42_fu_522_p2               |   icmp   |      0|  0|  13|          10|          10|
+    |icmp_ln45_fu_554_p2               |   icmp   |      0|  0|  18|          22|           1|
+    |icmp_ln58_fu_582_p2               |   icmp   |      0|  0|  13|          11|          12|
+    |tmp_last_V_fu_600_p2              |   icmp   |      0|  0|  13|          11|          10|
+    |lshr_ln43_fu_504_p2               |   lshr   |      0|  0|  27|          12|          11|
+    |ap_block_pp2_stage0_11001         |    or    |      0|  0|   2|           1|           1|
+    |ap_block_state39                  |    or    |      0|  0|   2|           1|           1|
+    |subDFTSize_fu_480_p2              |    shl   |      0|  0|  25|           1|          11|
+    |ap_enable_pp1                     |    xor   |      0|  0|   2|           1|           2|
+    |ap_enable_pp2                     |    xor   |      0|  0|   2|           1|           2|
+    |ap_enable_reg_pp1_iter1           |    xor   |      0|  0|   2|           2|           1|
+    |ap_enable_reg_pp2_iter1           |    xor   |      0|  0|   2|           2|           1|
+    +----------------------------------+----------+-------+---+----+------------+------------+
+    |Total                             |          |      0|  0| 342|         227|         172|
+    +----------------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------+-----+-----------+-----+-----------+
+    |            Name            | LUT | Input Size| Bits| Total Bits|
+    +----------------------------+-----+-----------+-----+-----------+
+    |FFTIN_TDATA_blk_n           |    9|          2|    1|          2|
+    |FFTIN_V_data_0_data_out     |    9|          2|   64|        128|
+    |FFTIN_V_data_0_state        |   15|          3|    2|          6|
+    |FFTIN_V_keep_V_0_state      |   15|          3|    2|          6|
+    |FFTIn_I_address0            |   15|          3|   10|         30|
+    |FFTIn_R_address0            |   15|          3|   10|         30|
+    |FFTOUT_TDATA_blk_n          |    9|          2|    1|          2|
+    |FFTOUT_V_data_1_data_out    |    9|          2|   64|        128|
+    |FFTOUT_V_data_1_state       |   15|          3|    2|          6|
+    |FFTOUT_V_keep_V_1_state     |   15|          3|    2|          6|
+    |FFTOUT_V_last_V_1_data_out  |    9|          2|    1|          2|
+    |FFTOUT_V_last_V_1_state     |   15|          3|    2|          6|
+    |ap_NS_fsm                   |  165|         37|    1|         37|
+    |ap_enable_reg_pp1_iter1     |   15|          3|    1|          3|
+    |ap_enable_reg_pp2_iter1     |    9|          2|    1|          2|
+    |ap_enable_reg_pp2_iter2     |    9|          2|    1|          2|
+    |grp_fu_341_opcode           |   15|          3|    2|          6|
+    |grp_fu_341_p0               |   15|          3|   32|         96|
+    |grp_fu_341_p1               |   15|          3|   32|         96|
+    |grp_fu_345_opcode           |   15|          3|    2|          6|
+    |grp_fu_345_p0               |   15|          3|   32|         96|
+    |grp_fu_345_p1               |   15|          3|   32|         96|
+    |i_0_reg_276                 |    9|          2|   11|         22|
+    |i_1_reg_287                 |    9|          2|   11|         22|
+    |i_2_reg_321                 |    9|          2|   32|         64|
+    |i_3_reg_330                 |    9|          2|   11|         22|
+    |i_6_reg_310                 |    9|          2|   10|         20|
+    |stage_0_reg_298             |    9|          2|    4|          8|
+    |tempout_I_address0          |   33|          6|   10|         60|
+    |tempout_I_d0                |   21|          4|   32|        128|
+    |tempout_R_address0          |   33|          6|   10|         60|
+    |tempout_R_d0                |   21|          4|   32|        128|
+    +----------------------------+-----+-----------+-----+-----------+
+    |Total                       |  600|        125|  460|       1326|
+    +----------------------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------------------+----+----+-----+-----------+
+    |               Name              | FF | LUT| Bits| Const Bits|
+    +---------------------------------+----+----+-----+-----------+
+    |BFWeight_cos_reg_717             |  32|   0|   32|          0|
+    |BFWeight_sin_reg_723             |  32|   0|   32|          0|
+    |BFWidth_reg_674                  |  10|   0|   32|         22|
+    |FFTIN_V_data_0_payload_A         |  64|   0|   64|          0|
+    |FFTIN_V_data_0_payload_B         |  64|   0|   64|          0|
+    |FFTIN_V_data_0_sel_rd            |   1|   0|    1|          0|
+    |FFTIN_V_data_0_sel_wr            |   1|   0|    1|          0|
+    |FFTIN_V_data_0_state             |   2|   0|    2|          0|
+    |FFTIN_V_keep_V_0_state           |   2|   0|    2|          0|
+    |FFTOUT_V_data_1_payload_A        |  64|   0|   64|          0|
+    |FFTOUT_V_data_1_payload_B        |  64|   0|   64|          0|
+    |FFTOUT_V_data_1_sel_rd           |   1|   0|    1|          0|
+    |FFTOUT_V_data_1_sel_wr           |   1|   0|    1|          0|
+    |FFTOUT_V_data_1_state            |   2|   0|    2|          0|
+    |FFTOUT_V_keep_V_1_sel_rd         |   1|   0|    1|          0|
+    |FFTOUT_V_keep_V_1_state          |   2|   0|    2|          0|
+    |FFTOUT_V_last_V_1_payload_A      |   1|   0|    1|          0|
+    |FFTOUT_V_last_V_1_payload_B      |   1|   0|    1|          0|
+    |FFTOUT_V_last_V_1_sel_rd         |   1|   0|    1|          0|
+    |FFTOUT_V_last_V_1_sel_wr         |   1|   0|    1|          0|
+    |FFTOUT_V_last_V_1_state          |   2|   0|    2|          0|
+    |ap_CS_fsm                        |  36|   0|   36|          0|
+    |ap_enable_reg_pp1_iter0          |   1|   0|    1|          0|
+    |ap_enable_reg_pp1_iter1          |   1|   0|    1|          0|
+    |ap_enable_reg_pp2_iter0          |   1|   0|    1|          0|
+    |ap_enable_reg_pp2_iter1          |   1|   0|    1|          0|
+    |ap_enable_reg_pp2_iter2          |   1|   0|    1|          0|
+    |i_0_reg_276                      |  11|   0|   11|          0|
+    |i_1_reg_287                      |  11|   0|   11|          0|
+    |i_2_reg_321                      |  32|   0|   32|          0|
+    |i_3_reg_330                      |  11|   0|   11|          0|
+    |i_6_reg_310                      |  10|   0|   10|          0|
+    |i_7_reg_752                      |  32|   0|   32|          0|
+    |icmp_ln29_reg_636                |   1|   0|    1|          0|
+    |icmp_ln58_reg_787                |   1|   0|    1|          0|
+    |icmp_ln58_reg_787_pp2_iter1_reg  |   1|   0|    1|          0|
+    |j_reg_692                        |  10|   0|   10|          0|
+    |lshr_ln_reg_669                  |  10|   0|   10|          0|
+    |mul_ln43_reg_697                 |  21|   0|   21|          0|
+    |or_ln31_8_reg_650                |  10|   0|   10|          0|
+    |reg_365                          |  32|   0|   32|          0|
+    |reg_372                          |  32|   0|   32|          0|
+    |reg_379                          |  32|   0|   32|          0|
+    |reg_385                          |  32|   0|   32|          0|
+    |stage_0_reg_298                  |   4|   0|    4|          0|
+    |tempout_I_addr_2_reg_737         |  10|   0|   10|          0|
+    |tempout_I_addr_3_reg_747         |  10|   0|   10|          0|
+    |tempout_R_addr_2_reg_732         |  10|   0|   10|          0|
+    |tempout_R_addr_3_reg_742         |  10|   0|   10|          0|
+    |tmp_1_reg_757                    |  32|   0|   32|          0|
+    |tmp_2_reg_762                    |  32|   0|   32|          0|
+    |tmp_3_reg_767                    |  32|   0|   32|          0|
+    |tmp_4_reg_772                    |  32|   0|   32|          0|
+    |tmp_5_reg_777                    |  32|   0|   32|          0|
+    |tmp_6_reg_782                    |  32|   0|   32|          0|
+    |tmp_last_V_reg_806               |   1|   0|    1|          0|
+    |zext_ln40_reg_664                |  11|   0|   32|         21|
+    |zext_ln42_1_reg_684              |  10|   0|   32|         22|
+    |zext_ln42_reg_679                |  11|   0|   21|         10|
+    +---------------------------------+----+----+-----+-----------+
+    |Total                            | 948|   0| 1023|         75|
+    +---------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------+-----+-----+--------------+-----------------+--------------+
+|   RTL Ports   | Dir | Bits|   Protocol   |  Source Object  |    C Type    |
++---------------+-----+-----+--------------+-----------------+--------------+
+|ap_clk         |  in |    1| ap_ctrl_none |     FFTipfn     | return value |
+|ap_rst_n       |  in |    1| ap_ctrl_none |     FFTipfn     | return value |
+|FFTIN_TDATA    |  in |   64|     axis     |   FFTIN_V_data  |    pointer   |
+|FFTIN_TVALID   |  in |    1|     axis     |  FFTIN_V_keep_V |    pointer   |
+|FFTIN_TREADY   | out |    1|     axis     |  FFTIN_V_keep_V |    pointer   |
+|FFTIN_TKEEP    |  in |    8|     axis     |  FFTIN_V_keep_V |    pointer   |
+|FFTIN_TLAST    |  in |    1|     axis     |  FFTIN_V_last_V |    pointer   |
+|FFTOUT_TDATA   | out |   64|     axis     |  FFTOUT_V_data  |    pointer   |
+|FFTOUT_TREADY  |  in |    1|     axis     |  FFTOUT_V_data  |    pointer   |
+|FFTOUT_TVALID  | out |    1|     axis     | FFTOUT_V_keep_V |    pointer   |
+|FFTOUT_TKEEP   | out |    8|     axis     | FFTOUT_V_keep_V |    pointer   |
+|FFTOUT_TLAST   | out |    1|     axis     | FFTOUT_V_last_V |    pointer   |
++---------------+-----+-----+--------------+-----------------+--------------+
+

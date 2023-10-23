@@ -1,0 +1,88 @@
+16:25:25 **** Incremental Build of configuration Debug for project fftacp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:25:40 **** Incremental Build of configuration Debug for project fftacp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:26:34 **** Auto Build of configuration Debug for project fftacp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftacp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftacp_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftacp.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftacp_bsp/ps7_cortexa9_0/lib -o "fftacp.elf"  ./src/fftSw.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftacp.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftacp.elf  |tee "fftacp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74548	   2648	17416816	17494012	10aeffc	fftacp.elf
+'Finished building: fftacp.elf.size'
+' '
+16:26:50 **** Incremental Build of configuration Debug for project fftacp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:27:40 **** Auto Build of configuration Debug for project fftacp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftacp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftacp_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftacp.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftacp_bsp/ps7_cortexa9_0/lib -o "fftacp.elf"  ./src/fftSw.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftacp.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftacp.elf  |tee "fftacp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74348	   2648	17416816	17493812	10aef34	fftacp.elf
+'Finished building: fftacp.elf.size'
+' '
+16:28:10 **** Incremental Build of configuration Debug for project fftacp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
