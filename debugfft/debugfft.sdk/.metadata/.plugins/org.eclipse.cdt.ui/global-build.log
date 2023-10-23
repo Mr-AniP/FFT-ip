@@ -1,0 +1,1181 @@
+22:17:34 **** Build of project fftip_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_9/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_9/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axidma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:17:53 **** Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19064	   1144	  22568	  42776	   a718	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:18:15 **** Auto Build of project fftip_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_9/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_9/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axidma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:18:32 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18996	   1144	  22568	  42708	   a6d4	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:18:50 **** Clean-only build of configuration Debug for project fftip ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  fftip.elf.size  fftip.elf
+' '
+22:18:51 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18996	   1144	2054184	2074324	 1fa6d4	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:37:03 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'DMA_Init':
+../src/helloworld.c:138:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     if(status!=XST_SUCCESS,s1!=XST_SUCCESS)
+                           ^
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:166:16: error: 'tfpgaStart' undeclared (first use in this function); did you mean 'tfpgastart'?
+  XTime_GetTime(tfpgaStart);
+                ^~~~~~~~~~
+                tfpgastart
+../src/helloworld.c:166:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:179:23: error: 'XPAR_AXI_DMA_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXIDMA_0_BASEADDR'?
+  int status=checkIdle(XPAR_AXI_DMA_0_BASEADDR,0x4);
+                       ^~~~~~~~~~~~~~~~~~~~~~~
+                       XPAR_AXIDMA_0_BASEADDR
+../src/helloworld.c:190:16: warning: passing argument 1 of 'XTime_GetTime' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTime_GetTime(tfpgaend);
+                ^~~~~~~~
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:95:27: note: expected 'XTime *' {aka 'long long unsigned int *'} but argument is of type 'int *'
+ void XTime_GetTime(XTime *Xtime_Global);
+                    ~~~~~~~^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:252:24: error: 'tfpgaend' undeclared (first use in this function); did you mean 'tfpgaendhp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                        ^~~~~~~~
+                        tfpgaendhp
+../src/helloworld.c:252:33: error: 'tfpgaStart' undeclared (first use in this function); did you mean 'tfpgaStarthp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                                 ^~~~~~~~~~
+                                 tfpgaStarthp
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:239:19: warning: unused variable 'RX_PNTR' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                   ^~~~~~~
+../src/helloworld.c:216:79: warning: unused variable 'tfpgaendacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                               ^~~~~~~~~~~
+../src/helloworld.c:216:65: warning: unused variable 'tfpgaStartacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                 ^~~~~~~~~~~~~
+../src/helloworld.c:216:38: warning: unused variable 'tfpgaendhp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                      ^~~~~~~~~~
+../src/helloworld.c:216:25: warning: unused variable 'tfpgaStarthp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                         ^~~~~~~~~~~~
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:209:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:38:21 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'DMA_Init':
+../src/helloworld.c:138:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     if(status!=XST_SUCCESS,s1!=XST_SUCCESS)
+                           ^
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:166:16: error: 'tfpgaStart' undeclared (first use in this function); did you mean 'tfpgastart'?
+  XTime_GetTime(tfpgaStart);
+                ^~~~~~~~~~
+                tfpgastart
+../src/helloworld.c:166:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:191:106: error: 'XPAR_AXI_DMA_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXIDMA_0_BASEADDR'?
+  xil_printf("DMA status after transfer\nDMA to Device status:%d, Device to DMA status: %d\r\n",checkIdle(XPAR_AXI_DMA_0_BASEADDR,0x4),checkIdle(XPAR_AXI_DMA_0_BASEADDR,0x34));
+                                                                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+                                                                                                          XPAR_AXIDMA_0_BASEADDR
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:252:24: error: 'tfpgaend' undeclared (first use in this function); did you mean 'tfpgaendhp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                        ^~~~~~~~
+                        tfpgaendhp
+../src/helloworld.c:252:33: error: 'tfpgaStart' undeclared (first use in this function); did you mean 'tfpgaStarthp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                                 ^~~~~~~~~~
+                                 tfpgaStarthp
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:239:19: warning: unused variable 'RX_PNTR' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                   ^~~~~~~
+../src/helloworld.c:216:79: warning: unused variable 'tfpgaendacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                               ^~~~~~~~~~~
+../src/helloworld.c:216:65: warning: unused variable 'tfpgaStartacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                 ^~~~~~~~~~~~~
+../src/helloworld.c:216:38: warning: unused variable 'tfpgaendhp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                      ^~~~~~~~~~
+../src/helloworld.c:216:25: warning: unused variable 'tfpgaStarthp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                         ^~~~~~~~~~~~
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:209:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:38:50 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'DMA_Init':
+../src/helloworld.c:138:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     if(status!=XST_SUCCESS,s1!=XST_SUCCESS)
+                           ^
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:191:106: error: 'XPAR_AXI_DMA_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXIDMA_0_BASEADDR'?
+  xil_printf("DMA status after transfer\nDMA to Device status:%d, Device to DMA status: %d\r\n",checkIdle(XPAR_AXI_DMA_0_BASEADDR,0x4),checkIdle(XPAR_AXI_DMA_0_BASEADDR,0x34));
+                                                                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+                                                                                                          XPAR_AXIDMA_0_BASEADDR
+../src/helloworld.c:191:106: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:252:24: error: 'tfpgaend' undeclared (first use in this function); did you mean 'tfpgaendhp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                        ^~~~~~~~
+                        tfpgaendhp
+../src/helloworld.c:252:33: error: 'tfpgaStart' undeclared (first use in this function); did you mean 'tfpgaStarthp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                                 ^~~~~~~~~~
+                                 tfpgaStarthp
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:239:19: warning: unused variable 'RX_PNTR' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                   ^~~~~~~
+../src/helloworld.c:216:79: warning: unused variable 'tfpgaendacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                               ^~~~~~~~~~~
+../src/helloworld.c:216:65: warning: unused variable 'tfpgaStartacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                 ^~~~~~~~~~~~~
+../src/helloworld.c:216:38: warning: unused variable 'tfpgaendhp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                      ^~~~~~~~~~
+../src/helloworld.c:216:25: warning: unused variable 'tfpgaStarthp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                         ^~~~~~~~~~~~
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:209:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:39:10 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'DMA_Init':
+../src/helloworld.c:138:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     if(status!=XST_SUCCESS,s1!=XST_SUCCESS)
+                           ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:252:24: error: 'tfpgaend' undeclared (first use in this function); did you mean 'tfpgaendhp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                        ^~~~~~~~
+                        tfpgaendhp
+../src/helloworld.c:252:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:252:33: error: 'tfpgaStart' undeclared (first use in this function); did you mean 'tfpgaStarthp'?
+  time_fpga=(float)1.0*(tfpgaend-tfpgaStart)/(COUNTS_PER_SECOND/1000000);
+                                 ^~~~~~~~~~
+                                 tfpgaStarthp
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:239:19: warning: unused variable 'RX_PNTR' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                   ^~~~~~~
+../src/helloworld.c:216:79: warning: unused variable 'tfpgaendacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                               ^~~~~~~~~~~
+../src/helloworld.c:216:65: warning: unused variable 'tfpgaStartacp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                                                 ^~~~~~~~~~~~~
+../src/helloworld.c:216:38: warning: unused variable 'tfpgaendhp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                                      ^~~~~~~~~~
+../src/helloworld.c:216:25: warning: unused variable 'tfpgaStarthp' [-Wunused-variable]
+     XTime tprocessorend,tfpgaStarthp,tfpgaendhp,tprocessorStart,tfpgaStartacp,tfpgaendacp;
+                         ^~~~~~~~~~~~
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:209:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:41:42 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'DMA_Init':
+../src/helloworld.c:138:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     if(status!=XST_SUCCESS,s1!=XST_SUCCESS)
+                           ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:264:8: error: redefinition of 'time_fpga'
+  float time_fpga=0;
+        ^~~~~~~~~
+../src/helloworld.c:256:8: note: previous definition of 'time_fpga' was here
+  float time_fpga=0;
+        ^~~~~~~~~
+../src/helloworld.c:268:8: error: redeclaration of 'accFactor' with no linkage
+  float accFactor;
+        ^~~~~~~~~
+../src/helloworld.c:260:8: note: previous declaration of 'accFactor' was here
+  float accFactor;
+        ^~~~~~~~~
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:239:19: warning: unused variable 'RX_PNTR' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                   ^~~~~~~
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:209:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:42:07 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'DMA_Init':
+../src/helloworld.c:138:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     if(status!=XST_SUCCESS,s1!=XST_SUCCESS)
+                           ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:239:19: warning: unused variable 'RX_PNTR' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                   ^~~~~~~
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:209:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:257:34: warning: 'tfpgaendhp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  time_fpga=(float)1.0*(tfpgaendhp-tfpgaStarthp)/(COUNTS_PER_SECOND/1000000);
+                       ~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/helloworld.c:257:34: warning: 'tfpgaStarthp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/helloworld.c:265:35: warning: 'tfpgaendacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  time_fpga=(float)1.0*(tfpgaendacp-tfpgaStartacp)/(COUNTS_PER_SECOND/1000000);
+                       ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/helloworld.c:265:35: warning: 'tfpgaStartacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75156	   2720	2058688	2136564	 2099f4	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:43:52 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'DMA_Init':
+../src/helloworld.c:138:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     if(status!=XST_SUCCESS,s1!=XST_SUCCESS)
+                           ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:260:35: warning: 'tfpgaendacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  time_fpga=(float)1.0*(tfpgaendacp-tfpgaStartacp)/(COUNTS_PER_SECOND/1000000);
+                       ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/helloworld.c:260:35: warning: 'tfpgaStartacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75220	   2720	2058688	2136628	 209a34	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:44:34 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:260:35: warning: 'tfpgaendacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  time_fpga=(float)1.0*(tfpgaendacp-tfpgaStartacp)/(COUNTS_PER_SECOND/1000000);
+                       ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/helloworld.c:260:35: warning: 'tfpgaStartacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75220	   2720	2058688	2136628	 209a34	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:45:28 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:239:30: warning: unused variable 'RX_PNTR1' [-Wunused-variable]
+     float complex RX_PNTR[N],RX_PNTR1[N];
+                              ^~~~~~~~
+../src/helloworld.c:260:35: warning: 'tfpgaendacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  time_fpga=(float)1.0*(tfpgaendacp-tfpgaStartacp)/(COUNTS_PER_SECOND/1000000);
+                       ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/helloworld.c:260:35: warning: 'tfpgaStartacp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75220	   2720	2058688	2136628	 209a34	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:46:03 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:244:5: warning: implicit declaration of function 'fft_acp'; did you mean 'fft_hp'? [-Wimplicit-function-declaration]
+     fft_acp(FFT_out_R,FFT_out_I,FFT_input,RX_PNTR1,&tfpgaendacp,&tfpgaStartacp);
+     ^~~~~~~
+     fft_hp
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+e:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/helloworld.o: in function `main':
+C:\Users\animesh21131\mabonSOC\debugfft\debugfft.sdk\fftip\Debug/../src/helloworld.c:244: undefined reference to `fft_acp'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: fftip.elf] Error 1
+22:46:36 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:210:6: error: redefinition of 'fft_hp'
+ void fft_hp(float FFT_out_R[],float FFT_out_I[],float complex FFT_input[],float complex RX_PNTR[],XTime *tfpgaend,XTime*tfpgaStart){}
+      ^~~~~~
+../src/helloworld.c:163:6: note: previous definition of 'fft_hp' was here
+ void fft_hp(float FFT_out_R[],float FFT_out_I[],float complex FFT_input[],float complex RX_PNTR[],XTime *tfpgaend,XTime*tfpgaStart){
+      ^~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:245:5: warning: implicit declaration of function 'fft_acp'; did you mean 'fft_hp'? [-Wimplicit-function-declaration]
+     fft_acp(FFT_out_R,FFT_out_I,FFT_input,RX_PNTR1,&tfpgaendacp,&tfpgaStartacp);
+     ^~~~~~~
+     fft_hp
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:46:44 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75348	   2720	2058688	2136756	 209ab4	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:53:45 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76052	   2720	2058688	2137460	 209d74	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:55:07 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:57:37 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+../src/helloworld.c: In function 'fft_hp':
+../src/helloworld.c:181:19: error: 'sttatus' undeclared (first use in this function); did you mean 'status'?
+   printf("%d 1\n",sttatus);
+                   ^~~~~~~
+                   status
+../src/helloworld.c:181:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+22:57:44 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76060	   2720	2058688	2137468	 209d7c	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+22:57:52 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:00:53 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76060	   2720	2058688	2137468	 209d7c	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+23:02:04 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:03:04 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76052	   2720	2058688	2137460	 209d74	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+23:03:12 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:13:36 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:31:55 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76052	   2720	2058688	2137460	 209d74	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+23:32:05 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:35:54 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76052	   2720	2058688	2137460	 209d74	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+23:35:59 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:37:26 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76052	   2720	2058688	2137460	 209d74	fftip.elf
+'Finished building: fftip.elf.size'
+' '
+23:37:30 **** Incremental Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:38:28 **** Auto Build of configuration Debug for project fftip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fftip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:52:
+../../fftip_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'FFT_sw':
+../src/helloworld.c:109:3: warning: label 'subDFTSize' defined but not used [-Wunused-label]
+   subDFTSize:for(i =j ; i < FFTSIZE; i += subDFTSize)
+   ^~~~~~~~~~
+../src/helloworld.c:101:5: warning: label 'butterfly' defined but not used [-Wunused-label]
+     butterfly:for(j=0; j<BFWidth; j++)
+     ^~~~~~~~~
+../src/helloworld.c:93:3: warning: label 'stages' defined but not used [-Wunused-label]
+   stages:for(stage=1; stage<= FFTSTAGES; stage++)
+   ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: fftip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fftip_bsp/ps7_cortexa9_0/lib -o "fftip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fftip.elf  |tee "fftip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76052	   2720	2058688	2137460	 209d74	fftip.elf
+'Finished building: fftip.elf.size'
+' '
